@@ -60,3 +60,55 @@ export function useButton2Cb() {
 }), [])
 	return { onClick }
 }
+export function useLink21Cb() {
+
+	return {  }
+}
+export function useLink22Cb() {
+
+	return {  }
+}
+export function useLink23Cb() {
+
+	return {  }
+}
+export function useLink24Cb() {
+
+	return {  }
+}
+export function useFlex26Cb() {
+	const onClick = useCallback(callbackFactory("Flex26", "aboutus", "/aboutus", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex27Cb() {
+	const onClick = useCallback(callbackFactory("Flex27", "aboutus", "/aboutus", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex28Cb() {
+	const onClick = useCallback(callbackFactory("Flex28", "aboutus", "/aboutus", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

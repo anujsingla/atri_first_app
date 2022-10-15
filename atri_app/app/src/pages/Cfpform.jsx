@@ -9,8 +9,8 @@ import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.t
 import { TextBox as TextBox2 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { Button as Button2 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { Radio } from "@atrilabs/react-component-manifests/src/manifests/Radio/Radio.tsx";
-import { useFlex10Cb, useFlex11Cb, useFlex12Cb, useDiv1Cb, useDiv2Cb, useFlex13Cb, useDiv3Cb, useDiv4Cb, useFlex14Cb, useDiv5Cb, useDiv6Cb, useFlex15Cb, useDiv8Cb, useFlex16Cb, useDiv9Cb, useDiv10Cb, useTextBox6Cb, useTextBox7Cb, useInput3Cb, useInput4Cb, useTextBox8Cb, useTextBox9Cb, useInput1Cb, useButton3Cb, useButton4Cb, useRadio12Cb, useTextBox11Cb } from "../page-cbs/cfpform";
+import { Link as Link2 } from "@atrilabs/react-component-manifests/src/manifests/Link/Link.tsx";
+import { useFlex10Cb, useFlex11Cb, useFlex12Cb, useDiv1Cb, useDiv2Cb, useFlex13Cb, useDiv3Cb, useDiv4Cb, useFlex14Cb, useDiv5Cb, useDiv6Cb, useFlex15Cb, useDiv8Cb, useFlex31Cb, useFlex29Cb, useFlex30Cb, useTextBox6Cb, useTextBox7Cb, useInput3Cb, useInput4Cb, useTextBox8Cb, useTextBox9Cb, useInput1Cb, useButton3Cb, useButton4Cb, useLink25Cb, useLink26Cb, useLink27Cb, useLink28Cb } from "../page-cbs/cfpform";
 import "../page-css/cfpform.css"
 
 export default function Cfpform() {
@@ -68,15 +68,15 @@ const Flex15Cb = useFlex15Cb()
 const Div8Props = useStore((state)=>state["cfpform"]["Div8"]);
 const Div8IoProps = useIoStore((state)=>state["cfpform"]["Div8"]);
 const Div8Cb = useDiv8Cb()
-const Flex16Props = useStore((state)=>state["cfpform"]["Flex16"]);
-const Flex16IoProps = useIoStore((state)=>state["cfpform"]["Flex16"]);
-const Flex16Cb = useFlex16Cb()
-const Div9Props = useStore((state)=>state["cfpform"]["Div9"]);
-const Div9IoProps = useIoStore((state)=>state["cfpform"]["Div9"]);
-const Div9Cb = useDiv9Cb()
-const Div10Props = useStore((state)=>state["cfpform"]["Div10"]);
-const Div10IoProps = useIoStore((state)=>state["cfpform"]["Div10"]);
-const Div10Cb = useDiv10Cb()
+const Flex31Props = useStore((state)=>state["cfpform"]["Flex31"]);
+const Flex31IoProps = useIoStore((state)=>state["cfpform"]["Flex31"]);
+const Flex31Cb = useFlex31Cb()
+const Flex29Props = useStore((state)=>state["cfpform"]["Flex29"]);
+const Flex29IoProps = useIoStore((state)=>state["cfpform"]["Flex29"]);
+const Flex29Cb = useFlex29Cb()
+const Flex30Props = useStore((state)=>state["cfpform"]["Flex30"]);
+const Flex30IoProps = useIoStore((state)=>state["cfpform"]["Flex30"]);
+const Flex30Cb = useFlex30Cb()
 const TextBox6Props = useStore((state)=>state["cfpform"]["TextBox6"]);
 const TextBox6IoProps = useIoStore((state)=>state["cfpform"]["TextBox6"]);
 const TextBox6Cb = useTextBox6Cb()
@@ -104,15 +104,31 @@ const Button3Cb = useButton3Cb()
 const Button4Props = useStore((state)=>state["cfpform"]["Button4"]);
 const Button4IoProps = useIoStore((state)=>state["cfpform"]["Button4"]);
 const Button4Cb = useButton4Cb()
-const Radio12Props = useStore((state)=>state["cfpform"]["Radio12"]);
-const Radio12IoProps = useIoStore((state)=>state["cfpform"]["Radio12"]);
-const Radio12Cb = useRadio12Cb()
-const TextBox11Props = useStore((state)=>state["cfpform"]["TextBox11"]);
-const TextBox11IoProps = useIoStore((state)=>state["cfpform"]["TextBox11"]);
-const TextBox11Cb = useTextBox11Cb()
+const Link25Props = useStore((state)=>state["cfpform"]["Link25"]);
+const Link25IoProps = useIoStore((state)=>state["cfpform"]["Link25"]);
+const Link25Cb = useLink25Cb()
+const Link26Props = useStore((state)=>state["cfpform"]["Link26"]);
+const Link26IoProps = useIoStore((state)=>state["cfpform"]["Link26"]);
+const Link26Cb = useLink26Cb()
+const Link27Props = useStore((state)=>state["cfpform"]["Link27"]);
+const Link27IoProps = useIoStore((state)=>state["cfpform"]["Link27"]);
+const Link27Cb = useLink27Cb()
+const Link28Props = useStore((state)=>state["cfpform"]["Link28"]);
+const Link28IoProps = useIoStore((state)=>state["cfpform"]["Link28"]);
+const Link28Cb = useLink28Cb()
 
   return (<>
-  <Flex2 className="p-cfpform Flex10" {...Flex10Props} {...Flex10Cb} {...Flex10IoProps}>
+  <Flex2 className="p-cfpform Flex31" {...Flex31Props} {...Flex31Cb} {...Flex31IoProps}>
+<Flex2 className="p-cfpform Flex30" {...Flex30Props} {...Flex30Cb} {...Flex30IoProps}>
+<Link2 className="p-cfpform Link28" {...Link28Props} {...Link28Cb} {...Link28IoProps}/>
+</Flex2>
+<Flex2 className="p-cfpform Flex29" {...Flex29Props} {...Flex29Cb} {...Flex29IoProps}>
+<Link2 className="p-cfpform Link27" {...Link27Props} {...Link27Cb} {...Link27IoProps}/>
+<Link2 className="p-cfpform Link26" {...Link26Props} {...Link26Cb} {...Link26IoProps}/>
+<Link2 className="p-cfpform Link25" {...Link25Props} {...Link25Cb} {...Link25IoProps}/>
+</Flex2>
+</Flex2>
+<Flex2 className="p-cfpform Flex10" {...Flex10Props} {...Flex10Cb} {...Flex10IoProps}>
 <Flex2 className="p-cfpform Flex11" {...Flex11Props} {...Flex11Cb} {...Flex11IoProps}>
 <TextBox2 className="p-cfpform TextBox6" {...TextBox6Props} {...TextBox6Cb} {...TextBox6IoProps}/>
 </Flex2>
@@ -138,14 +154,6 @@ const TextBox11Cb = useTextBox11Cb()
 </Div>
 <Div className="p-cfpform Div6" {...Div6Props} {...Div6Cb} {...Div6IoProps}>
 <Input className="p-cfpform Input1" {...Input1Props} {...Input1Cb} {...Input1IoProps}/>
-</Div>
-</Flex2>
-<Flex2 className="p-cfpform Flex16" {...Flex16Props} {...Flex16Cb} {...Flex16IoProps}>
-<Div className="p-cfpform Div10" {...Div10Props} {...Div10Cb} {...Div10IoProps}>
-<TextBox2 className="p-cfpform TextBox11" {...TextBox11Props} {...TextBox11Cb} {...TextBox11IoProps}/>
-</Div>
-<Div className="p-cfpform Div9" {...Div9Props} {...Div9Cb} {...Div9IoProps}>
-<Radio className="p-cfpform Radio12" {...Radio12Props} {...Radio12Cb} {...Radio12IoProps}/>
 </Div>
 </Flex2>
 <Flex2 className="p-cfpform Flex15" {...Flex15Props} {...Flex15Cb} {...Flex15IoProps}>

@@ -8,6 +8,32 @@ width: 100%;
 height: 100%;
 row-gap: 20px;
 }
+.p-aboutus.Flex28 {
+display: flex;
+align-items: stretch;
+justify-content: space-between;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 2px;
+border-width: 2px;
+border-style: solid;
+align-content: stretch;
+color: #ffffff;
+background-color: #151515;
+}
+.p-aboutus.Flex26 {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+margin-top: ;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.p-aboutus.Flex27 {
+display: flex;
+}
 .p-aboutus.TextBox4 {
 ;
 }
@@ -31,4 +57,28 @@ border-style: solid;
 border-color: #1890ff;
 cursor: pointer;
 user-select: none;
+}
+.p-aboutus.Link21 {
+padding-left: 10px;
+padding-right: 10px;
+}
+.p-aboutus.Link22 {
+padding-left: 10px;
+padding-right: 10px;
+}
+.p-aboutus.Link23 {
+margin-top: ;
+margin-bottom: ;
+padding-top: ;
+padding-bottom: ;
+padding-left: 10px;
+padding-right: 10px;
+color: #ffffff;
+}
+.p-aboutus.Link24 {
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+color: #ffffff;
 }

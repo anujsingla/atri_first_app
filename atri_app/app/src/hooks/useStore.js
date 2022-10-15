@@ -76,7 +76,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -84,12 +87,15 @@ const desktopModeProps = {
     "Link6": {
       "custom": {
         "text": "Form",
-        "url": "/"
+        "url": "/cfpform"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/cfpform"
+            }
           }
         ]
       }
@@ -97,12 +103,15 @@ const desktopModeProps = {
     "Link7": {
       "custom": {
         "text": "About",
-        "url": "/"
+        "url": "/aboutus"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/aboutus"
+            }
           }
         ]
       }
@@ -126,7 +135,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/cfpform"
+            }
           }
         ]
       }
@@ -162,6 +174,15 @@ const desktopModeProps = {
     "Flex9": {
       "callbacks": {}
     },
+    "Flex28": {
+      "callbacks": {}
+    },
+    "Flex26": {
+      "callbacks": {}
+    },
+    "Flex27": {
+      "callbacks": {}
+    },
     "TextBox4": {
       "custom": {
         "text": "We have collected all the wisdom from the internet on how to create wonderful conference submissions and put that into an intuitive form. CFP Guru helps you structure your idea into a winning format."
@@ -189,6 +210,67 @@ const desktopModeProps = {
     "Button2": {
       "custom": {
         "text": "Find Slots"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link21": {
+      "custom": {
+        "text": "About",
+        "url": "/aboutus"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/aboutus"
+            }
+          }
+        ]
+      }
+    },
+    "Link22": {
+      "custom": {
+        "text": "Form",
+        "url": "/cfpform"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/cfpform"
+            }
+          }
+        ]
+      }
+    },
+    "Link23": {
+      "custom": {
+        "text": "Home",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Link24": {
+      "custom": {
+        "text": "CFP Guru",
+        "url": "/"
       },
       "callbacks": {
         "onClick": [
@@ -239,13 +321,13 @@ const desktopModeProps = {
     "Div8": {
       "callbacks": {}
     },
-    "Flex16": {
+    "Flex31": {
       "callbacks": {}
     },
-    "Div9": {
+    "Flex29": {
       "callbacks": {}
     },
-    "Div10": {
+    "Flex30": {
       "callbacks": {}
     },
     "TextBox6": {
@@ -331,7 +413,7 @@ const desktopModeProps = {
     },
     "Button4": {
       "custom": {
-        "text": "Preview"
+        "text": "Submit"
       },
       "callbacks": {
         "onClick": [
@@ -341,23 +423,58 @@ const desktopModeProps = {
         ]
       }
     },
-    "Radio12": {
+    "Link25": {
       "custom": {
-        "name": "",
-        "label": "Radio",
-        "checked": false
+        "text": "About",
+        "url": "/aboutus"
       },
       "callbacks": {
-        "onChange": [
+        "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/aboutus"
+            }
           }
         ]
       }
     },
-    "TextBox11": {
+    "Link26": {
       "custom": {
-        "text": "Describe the problem that your submission tries to address"
+        "text": "Form",
+        "url": "/cfpform"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/cfpform"
+            }
+          }
+        ]
+      }
+    },
+    "Link27": {
+      "custom": {
+        "text": "Home",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Link28": {
+      "custom": {
+        "text": "CFP Guru",
+        "url": "/"
       },
       "callbacks": {
         "onClick": [

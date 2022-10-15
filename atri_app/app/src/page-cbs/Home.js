@@ -113,7 +113,10 @@ export function useButton1Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/cfpform"
+      }
     }
   ],
   "actions": [
